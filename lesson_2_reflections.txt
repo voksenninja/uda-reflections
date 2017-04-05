@@ -1,3 +1,7 @@
 Hvad sker der, når man initialiserer et nyt repository, og hvorfor er det nødvendigt at gøre det?
 
 Før jeg initialiserer et repository, er der ikke noget, der adskiller mappen fra en ganske almindelig mappe. Initialiseringen er det, der gør, at mappen er anderledes.
+
+Hvordan er staging area forskelligt fra repository og working directory?
+
+Staging area danner på en måde en bro mellem working directory og repository. I stedet for at gå direkte fra working directory, kan jeg styre, hvor meget, der "kommer med" i hvert enkelt commit.
