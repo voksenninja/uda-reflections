@@ -21,3 +21,7 @@ De visualiserer, hvilke commits de enkelte branches indeholder, og hvor de forgr
 Hvad er status af at merge to branches? Hvorfor bliver det visualiseret på den måde, det gør?
 
 Ved at merge to branches får man alle rettelser lagt sammen fra to forskellige branches set i forhold til den sidste commit, de har tilfælles. Det bliver visualiseret sådan, at det er tydeligt, hvornår der blev udbranchet eller merget. Det gør det lettere at forstå, hvad der er sket undervejs.
+
+Hvad er fordele og ulemper ved automatisk merge kontra manuel merging?
+
+I de fleste tilfælde fanger Git, hvad det er, der skal merges, men det er jo med den risiko, at der kan være dependencies, der bliver ødelagt. Manuel merging sker som udgangspunkt kun, hvis det er på samme linje i en fil, at der er ændringer, og så giver det jo fin mening, at man manuelt skal vurdere, hvordan det endelige skal se ud.
