@@ -5,3 +5,7 @@ Før jeg initialiserer et repository, er der ikke noget, der adskiller mappen fr
 Hvordan er staging area forskelligt fra repository og working directory?
 
 Staging area danner på en måde en bro mellem working directory og repository. I stedet for at gå direkte fra working directory, kan jeg styre, hvor meget, der "kommer med" i hvert enkelt commit.
+
+Hvordan kan man bruge staging area til at holde styr på, at kun en enkelt logisk ændring er indeholdt i hver enkelt commit?
+
+Ved at bruge git diff uden argumenter, kan man se forskellen på staging area og working directory. Derved kan man se ALLE forskelle, man har lavet. Ved at tilføje enkelte filer til staging area, committe dem, og fortsætte således, kan man dele ændringerne over i flere commits.
