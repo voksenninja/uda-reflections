@@ -15,4 +15,9 @@ Hvornår er branches brugbare?
 Når man gerne vil have flere forskellige sideordnede udgaver af et projekt, eksempelvis hvis en ny eksperimentel funktionalitet skal kodes.
 
 Hvordan hjælper diagrammer til at forstå branches?
+
 De visualiserer, hvilke commits de enkelte branches indeholder, og hvor de forgrener sig. Jeg synes ikke, jeg fik særligt meget ud af at lave en graf over en ny branch, der kun adskilte sig med et enkelt commit fra master...
+
+Hvad er status af at merge to branches? Hvorfor bliver det visualiseret på den måde, det gør?
+
+Ved at merge to branches får man alle rettelser lagt sammen fra to forskellige branches set i forhold til den sidste commit, de har tilfælles. Det bliver visualiseret sådan, at det er tydeligt, hvornår der blev udbranchet eller merget. Det gør det lettere at forstå, hvad der er sket undervejs.
