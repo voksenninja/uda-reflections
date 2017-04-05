@@ -9,3 +9,7 @@ Staging area danner på en måde en bro mellem working directory og repository. 
 Hvordan kan man bruge staging area til at holde styr på, at kun en enkelt logisk ændring er indeholdt i hver enkelt commit?
 
 Ved at bruge git diff uden argumenter, kan man se forskellen på staging area og working directory. Derved kan man se ALLE forskelle, man har lavet. Ved at tilføje enkelte filer til staging area, committe dem, og fortsætte således, kan man dele ændringerne over i flere commits.
+
+Hvornår er branches brugbare?
+
+Når man gerne vil have flere forskellige sideordnede udgaver af et projekt, eksempelvis hvis en ny eksperimentel funktionalitet skal kodes.
