@@ -1,0 +1,27 @@
+Reflektioner om at sammenligne filer
+
+Ved at sammenligne to filer var det meget let at overskue, hvad præcis det var, der var blevet ændret. Det gjorde det en hel del lettere at finde fejlen, nu hvor der var tale om en “virkede før, men virker ikke nu”-agtig type af fejl.
+
+Hvordan kan det, at jeg har adgang til den komplette historie for en fil, gøre mig bedre som programmør?
+
+Ved at jeg kan se alle tidligere versioner, kan jeg dels reflektere over, hvilke typer af fejl, jeg ofte laver, dels glæde mig over min egen udvikling og – på et mere lavpraktisk plan – tjekke ud, hvad det er for nogle versioner af min fil, der ikke opfører sig, som jeg tænkte den skulle, så jeg har mulighed for at diffe med en, der gør. Så kan det være, jeg lettere kan forstå, hvad der er gået galt.
+
+Hvad er fordele og ulemper ved at skulle committe manuelt fremfor automatisk?
+
+Hvis systemet committer automatisk, mister jeg som programmør følingen med, om det jeg committer “giver mening”. I praksis kunne systemet vælge at committe noget, der slet ikke virker, og det er fjollet i mit hoved. Med manuelle commits kan jeg selv vælge, hvornår jeg tænker, det giver mening at lave et “save point”. Omvendt kommer det selvfølgelig med den konsekvens, at jeg kan glemme det eller evt. gøre det for ofte.
+
+Hvorfor har nogle systemer versionsstyring per fil (f.eks. Google Docs), hvorimod andre har for flere filer samtidig (f.eks. Git)?
+
+I systemer som Git er der jo ofte filer, der hænger sammen og er “inkluderede” i hinanden i et eller andet omfang. Derfor giver det mening, at man på samme tid tager et “snapshot” af det hele.
+
+Hvordan kan jeg bruge git log og git diff til at undersøge historikken for mine filer?
+
+git log viser mig en liste over alle commits der overhovedet er foretaget, hvor tid og besked er synlig. Hvis der f.eks. er en bug med en konkret ting, kan jeg lede heri efter en bestemt ændring ift. den ting. git diff kan sammenligne to udgaver af et repository, så det kan bruges til at forstå konkrete ændringer mellem f.eks. to forskellige punkter i tid eller to forskellige udgaver af den samme ting.
+
+Hvordan kan versionsstyring gøre det mindre problematisk at lave ændringer, som måske ødelægger noget andet?
+
+Nu hvor jeg altid kan gå tilbage til en tidligere udgave for at se, om den måske virker, er det slet ikke så farligt. Vi kan altid komme tilbage.
+
+Hvad vil jeg gerne prøve at bruge git til?
+
+Jeg kunne godt tænke mig at prøve nogle af de lidt mere komplekse ting såsom fejl. Ellers kunne det være fedt at prøve på mit eget "projekt" helt fra bunden.
