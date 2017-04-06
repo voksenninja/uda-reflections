@@ -5,3 +5,7 @@ Jeg tænker, at der især er to situationer. Hvis jeg vil dele min kode, er det 
 Hvornår ville jeg gerne have, at nye ændringer på remote repository automatisk blev pullet?
 
 Det tænker jeg som udgangspunkt kun giver mening, hvis jeg ikke selv roder i koden? Ellers tænker jeg, at det da hurtigt kan blive noget rod. Jeg vil gerne have kontrol over, hvornår jeg puller ændringer fra remote repository ind i det, jeg selv sidder med.
+
+Hvad er fordelen ved at have en kopi af den sidst kende status for remote repository gemt lokalt?
+
+Det betyder, at man senere hen har en "fælles" forfader, hvis der evt. er flere branches, der skal merges sammen (ikke fast-forward).
