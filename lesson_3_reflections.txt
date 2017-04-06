@@ -13,3 +13,7 @@ Det betyder, at man senere hen har en "fælles" forfader, hvis der evt. er flere
 Hvordan ville jeg samarbejde uden Git og GitHub? Hvad ville være lettere/sværere?
 
 Jeg ville hele tiden sørge for, at der kun var en, der arbejdede på en fil af gangen, så det ville hæmme udviklingen en hel del. Til gengæld ville jeg ikke skulle "døje" med at huske alle de forskellige kommandoer og arbejdsgange.
+
+Hvornår ville man lave en ny branch at arbejde i fremfor blot at arbejde i masteren? Fordele og ulemper?
+
+I en branch kan man teste funktionalitet af, og man kan "beholde" ændringer for sig selv, indtil man er klar til, at de er en del af den store pakke. Det gør det selvfølgelig lidt mere besværligt, men så er der bedre struktur om ikke andet.
