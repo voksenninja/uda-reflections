@@ -1,3 +1,7 @@
 Hvornår ville jeg bruge et remote repository i stedet for bare at holde det lokalt?
 
 Jeg tænker, at der især er to situationer. Hvis jeg vil dele min kode, er det jo oplagt at gøre det sådan, så andre har mulighed for at fortsætte med at bruge den. Hvis jeg samarbejder med andre, er vi nødt til at have et eller andet fælles sted, hvor vi deler koden.
+
+Hvornår ville jeg gerne have, at nye ændringer på remote repository automatisk blev pullet?
+
+Det tænker jeg som udgangspunkt kun giver mening, hvis jeg ikke selv roder i koden? Ellers tænker jeg, at det da hurtigt kan blive noget rod. Jeg vil gerne have kontrol over, hvornår jeg puller ændringer fra remote repository ind i det, jeg selv sidder med.
